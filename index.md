@@ -39,7 +39,7 @@ Not that this area is unexplored, there were quite remarkable successful attempt
 <!-- ![PNaCl](https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png) -->
 
 <figure style="text-align:center">
-  <img src="https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png" />
+  <img src="https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png" alt="Program struture of Google's NaCl"/>
   <figcaption style="text-align:center">Program struture of Google's NaCl</figcaption>
 </figure>
 

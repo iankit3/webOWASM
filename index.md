@@ -32,10 +32,16 @@ This is all because the languages in which Desktop applications are written, sup
   2. Use a well established and fast general purpose language.
 
 ## The Path to Parallel JavaScript
+This area is not unexplored and there were quite remarkable success that carved the way for today's parallel JavaScript.    
 [The Path to Parallel JavaScript](https://blog.mozilla.org/javascript/2015/02/26/the-path-to-parallel-javascript/)
 
-*         
-  ![PNaCl](https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png)
+         
+<!-- ![PNaCl](https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png) -->
+
+<figure style="text-align:center">
+  <img src="https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png" />
+  <figcaption style="text-align:center">Program struture of Google's NaCl</figcaption>
+</figure>
 
 
 Below are some few popular ideas for parallel JS
@@ -43,4 +49,4 @@ Below are some few popular ideas for parallel JS
    2. [ASMjs](http://asmjs.org/faq.html)
 
 ## Welcome WASM
-Though the attempts made by NaCl and ASMjs are quite remarkable, they weren't part of a standard web specification. Finally everyone with the idea of fast web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across browsers.
+Though the attempts made by NaCl and ASMjs are quite conviencing, they weren't part of a standard web specification. Finally everyone with the idea of fast web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across popular browsers.

@@ -11,8 +11,8 @@ The Art of writing a fast and performant web application is quite limited due to
 Considering the time it was designed it was quite sufficient and fast. But in this modern era, Web Applications are doing a lot of complex and intensive tasks such as Video Editing, 3D Graphics and even Video Games. This requires the applications to be fast and responsive to keep the experience smooth.
 
 ## Lets make it fast
-Though JavaScript is slower than most of the general purpose languages, there are ways to improve the performance of web applications. There are many aspects to it, you won't get deeper into this.
-But below are some general considerations for a performant Webapp.
+Though JavaScript is slower than most of the general purpose languages, there are ways to improve the performance of web applications to get most out of it. There are many aspects to it, we won't get deeper into this.
+But below are some general considerations for a performant WebApp.
  * Optimiziing size and content efficiency using minification and caching.
  * Using [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers)
  * PWA using [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern#the_prpl_pattern)
@@ -28,11 +28,11 @@ In traditional Desktop applications scene, one can add more cores of CPU/GPU to 
 This is all because the languages in which Desktop applications are written, support multithreading and they give the programmers the ability to churn all the CPU/GPU out.
 
 ## Bringing the Wheel home
-  1. Add parallelism capabilities to JS.
+  1. Add parallel capabilities to JS.
   2. Use a well established and fast general purpose language.
 
 ## The Path to Parallel JavaScript
-This area is not unexplored and there were quite remarkable success that carved the way for today's parallel JavaScript.    
+Not that this area is unexplored, there were quite remarkable successful attempts that carved the way for today's parallel JavaScript.    
 [The Path to Parallel JavaScript](https://blog.mozilla.org/javascript/2015/02/26/the-path-to-parallel-javascript/)
 
          
@@ -49,4 +49,4 @@ Below are some few popular ideas for parallel JS
    2. [ASMjs](http://asmjs.org/faq.html)
 
 ## Welcome WASM
-Though the attempts made by NaCl and ASMjs are quite conviencing, they weren't part of a standard web specification. Finally everyone with the idea of fast web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across popular browsers.
+Though the attempts made by NaCl and ASMjs are quite conviencing, they weren't part of a standard web specification. But finally everyone with the idea of `fast` web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across popular browsers.

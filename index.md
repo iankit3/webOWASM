@@ -1,17 +1,17 @@
 # Performant Web Applications using WebAssembly
 
-With the increase in `build once and run anywhere` rising again like it did in mid 70s and around 95, Developers need software that runs everywhere. Though there are many attempts to achieve that with the likes of Java, Qt which are more about making general purpose languages/tools run everywhere, including Web. Though it worked quite well for desktop applications and failed to make a mark in Mobile and Web applications scene.    
+With the [`write once and run anywhere`](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) slogan rising again like it did in mid 70s and around 95, Developers need software that runs everywhere. Though there are many attempts to achieve that with the likes of Java, Qt which are more about making general purpose languages/tools run everywhere, including Web. Though it worked quite well for desktop applications but failed to make a mark in Mobile and Web applications scene.    
 Now things have changed, developer tend to use Web Technologies for building Desktop/Mobile applications.
 And it seems to be working well, thanks to great projects like [Electron](https://electronjs.org/) and [React-Native](https://facebook.github.io/react-native/) to name a few. This brought a paradigm shift and developers tend to move towards Web Technologies to build all types of applications.
 
-Things are looking brighter but there are some bottlenecks because Web Technologies aren't mean't for general purpose Software Development. They are built specifically for making interactive web pages that why JavaScript, the language to the web is slow.
+Things were looking brighter but there were some bottlenecks because Web Technologies aren't mean't for general purpose Software Development. They are built specifically for making interactive web pages that why JavaScript, the language to the web is slow.
 
 ## Why JavaScript is Slow
 The Art of writing a fast and performant web application is quite limited due to sheer inability of Web technologies especially JavaScript of using all available CPU cores. It is due to the fact that JavaScript is Single threaded. And it was a well thought through and deliberate design decision by [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) the creator of JavaScript who completed it in just 10 days, in the year 1995.    
-Considering the time it was designed it was quite sufficient and fast. But in this modern era, Web Applications are doing a lot of complex and intensive tasks such as Video Editing, 3D Graphics and even Video Games. This requires the applications to be fast and responsive to keep the experince smooth.
+Considering the time it was designed it was quite sufficient and fast. But in this modern era, Web Applications are doing a lot of complex and intensive tasks such as Video Editing, 3D Graphics and even Video Games. This requires the applications to be fast and responsive to keep the experience smooth.
 
 ## Lets make it fast
-Though JavaScript is slower than available general purpose languages, there are ways to improve the performance of web applications. There are many aspects to it, you won't get deeper into this.
+Though JavaScript is slower than most of the general purpose languages, there are ways to improve the performance of web applications. There are many aspects to it, you won't get deeper into this.
 But below are some general considerations for a performant Webapp.
  * Optimiziing size and content efficiency using minification and caching.
  * Using [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers)
@@ -38,4 +38,4 @@ Below are some few popular ideas for parallel JS
    2. [ASMjs](http://asmjs.org/faq.html)
 
 ## Welcome WASM
-Though the attempts made by NaCl and ASMjs are quite remarkable, they weren't part of a standard web specification. Finally everyone with the idea of fast web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) across browsers.
+Though the attempts made by NaCl and ASMjs are quite remarkable, they weren't part of a standard web specification. Finally everyone with the idea of fast web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across browsers.

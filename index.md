@@ -33,8 +33,9 @@ This is all because the languages in which Desktop applications are written, sup
 
 ## The Path to Parallel JavaScript
 [The Path to Parallel JavaScript](https://blog.mozilla.org/javascript/2015/02/26/the-path-to-parallel-javascript/)
-* Abcd
+        
   ![PNaCl](https://raw.githubusercontent.com/iankit3/webOWASM/master/PNaCl.png)
+
 
 Below are some few popular ideas for parallel JS
    1. [NaCl](https://developer.chrome.com/native-client/nacl-and-pnacl)

@@ -13,13 +13,13 @@ Considering the time it was designed it was quite sufficient and fast. But in th
 ## Lets make it fast
 Though JavaScript is slower than most of the general purpose languages, there are ways to improve the performance of web applications to get most out of it. There are many aspects to it, we won't get deeper into this.
 But below are some general considerations for a performant WebApp.
- * Optimiziing size and content efficiency using minification and caching.
+ * Optimizing size and content efficiency using minification and caching.
  * Using [Service Workers](https://developers.google.com/web/fundamentals/primers/service-workers)
  * PWA using [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern#the_prpl_pattern)
  * Prioritizing content load order to improve [CRP](https://developers.google.com/web/fundamentals/performance/critical-rendering-path)
  * Using [CDN edge server](https://www.cloudflare.com/learning/cdn/glossary/edge-server/) for faster loading of common assets and files.
 
-We just have scratched the surface, there are tons of ways/hacks to improve the speed of a Web Application. But all of them are still limited to a single thread with [Web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) being an execption.
+We just have scratched the surface, there are tons of ways/hacks to improve the speed of a Web Application. But all of them are still limited to a single thread with [Web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) being an exception.
 
 ## But why reinvent the wheel
 The mentioned general approachs work well and are proved to be sufficient for most of the web applications but not for the above mentioned use cases. They require a lot of parallel threads running and doing the job but JavaScript lacks it.
@@ -49,4 +49,10 @@ Below are some few popular ideas for parallel JS
    2. [ASMjs](http://asmjs.org/faq.html)
 
 ## Welcome WASM
-Though the attempts made by NaCl and ASMjs are quite conviencing, they weren't part of a standard web specification. But finally everyone with the idea of `fast` web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across popular browsers.
+Though the attempts made by NaCl and ASMjs are quite convincing, they weren't part of a standard web specification. But finally everyone with the idea of `fast` web, agreed and thus [WebAssembly](https://webassembly.org/) got adopted as [standard](https://webassembly.github.io/spec/) and is available across popular browsers.
+
+## What's Next
+Stay updated for Part 2 of the Series which will contain real world use cases where WebAssembly is solving serious business problems.
+
+
+If you have any opinions about the above post feel free to comment or DM me Ankit(@iankit3)
